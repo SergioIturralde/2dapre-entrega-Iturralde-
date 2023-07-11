@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Calculadora de Promedio de Edad</title>
+</head>
+<body>
+    <h1>Calculadora de Promedio de Edad</h1>
+
+  <div id="input-container">
+    <label for="age-input">Edad:</label>
+    <input type="number" id="age-input" min="0">
+    <button onclick="addAge()">Agregar</button>
+  </div>
+
+  <div id="ages-container">
+    <h2>Edades agregadas:</h2>
+    <ul id="ages-list"></ul>
+  </div>
+
+  <div id="average-container">
+    <h2>Promedio de edad:</h2>
+    <p id="average-result">-</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

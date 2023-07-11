@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  #input-container {
+    margin-bottom: 20px;
+  }
+  
+  #input-container label {
+    margin-right: 10px;
+  }
+  
+  #ages-container {
+    margin-bottom: 20px;
+  }
+  
+  #average-container {
+    font-weight: bold;
+  }
